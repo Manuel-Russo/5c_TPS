@@ -1,0 +1,36 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+heading     {
+    position: fixed;
+    margin-top: -50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+garage  {
+    display: table;
+    font-size: 16px;
+    font-family: Verdana;
+    color: black;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+
+auto    {
+    display: table-row;
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+auto:hover     {
+    background-color: cadetblue;
+}
+
+nome,anno,cavalli,cilindrata,alimentazione,prezzo   {
+    display: table-cell;
+    border: 1px solid crimson;
+    padding: 10px 5px;
+}

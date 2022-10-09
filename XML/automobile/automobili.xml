@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="autoCSS.css" type="text/css"?>
+
+<garage>
+    <heading>Benvenuti all'autosalone da Kinari India</heading>
+    <auto>
+        <nome>Corvette C8 Stingray Coupé</nome>
+        <anno>2020</anno>
+        <cilindrata>-</cilindrata>
+        <cavalli>354 kW (481 CV)</cavalli>
+        <alimentazione>Benzina</alimentazione>
+        <prezzo>€ 128.000</prezzo>
+    </auto>
+    <auto>
+        <nome>BMW M3</nome>
+        <anno>2022</anno>
+        <cilindrata>-</cilindrata>
+        <cavalli>480/353</cavalli>
+        <alimentazione>480/353</alimentazione>
+        <prezzo>95.900 €</prezzo>
+    </auto>
+    <auto>
+        <nome>Mercedes Benz W177 Class A</nome>
+        <anno>2020</anno>
+        <cilindrata>1.991 cc</cilindrata>
+        <cavalli>190 CV</cavalli>
+        <alimentazione>Benzina</alimentazione>
+        <prezzo>€ 44.000</prezzo>
+    </auto>
+    <auto>
+        <nome>Ferrari 599XX</nome>
+        <anno>2009</anno>
+        <cilindrata>5999 cm3</cilindrata>
+        <cavalli>730 CV</cavalli>
+        <alimentazione>Benzina</alimentazione>
+        <prezzo>€ 400.000</prezzo>
+    </auto>
+    <auto>
+        <nome>Peugeot 208</nome>
+        <anno>2017</anno>
+        <cilindrata>CM3 1.199</cilindrata>
+        <cavalli>60 Cv</cavalli>
+        <alimentazione>Benzina</alimentazione>
+        <prezzo>€ 17.370</prezzo>
+    </auto>
+    <auto>
+        <nome> Ford Fiesta: Crossover</nome>
+        <anno>2020</anno>
+        <cilindrata>998</cilindrata>
+        <cavalli>80 cv</cavalli>
+        <alimentazione>benzina</alimentazione>
+        <prezzo>€ 21.250</prezzo>
+    </auto>
+    <auto>
+        <nome>Nissan Juke</nome>
+        <anno>2020</anno>
+        <cilindrata>999 cc</cilindrata>
+        <cavalli>117 Cv</cavalli>
+        <alimentazione>Benzina</alimentazione>
+        <prezzo>21.370 €</prezzo>
+    </auto>
+    <auto>
+        <nome>Volkswagen T-Roc</nome>
+        <anno>2017</anno>
+        <cilindrata>CM3 999</cilindrata>
+        <cavalli>110</cavalli>
+        <alimentazione>Benzina e Gasolio</alimentazione>
+        <prezzo>€ 26.600</prezzo>
+    </auto>
+    <auto>
+        <nome>Fiat Panda Cross 2021</nome>
+        <anno>2021</anno>
+        <cilindrata>875 cm3</cilindrata>
+        <cavalli>85 Cv</cavalli>
+        <alimentazione>Benzina</alimentazione>
+        <prezzo>€ 18.000</prezzo>
+    </auto>
+    <auto>
+        <nome>Jeep Wrangler</nome>
+        <anno>2020</anno>
+        <cilindrata>1995</cilindrata>
+        <cavalli>272</cavalli>
+        <alimentazione>Benzina</alimentazione>
+        <prezzo>€ 71.050</prezzo>
+    </auto>
+    <auto>
+        <nome>Willys-Overland Jeep MB</nome>
+        <anno>1945</anno>
+        <cilindrata>2199 cm3</cilindrata>
+        <cavalli>54 cv</cavalli>
+        <alimentazione>Benzina</alimentazione>
+        <prezzo>€ 10.000</prezzo>
+    </auto>
+</garage>

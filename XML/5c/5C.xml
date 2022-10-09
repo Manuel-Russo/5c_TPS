@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="5cCSS.css" type="text/css"?>
+
+<classe> <!-- <classe> = <table> -->
+    <studente>  <!-- <studente> = <tr> -->
+        <nome>Lorenzo</nome>    <!-- <nome> = <td> -->
+        <cognome>Ascione</cognome>
+        <telefono>3401234567</telefono>
+        <email>lorenzo.ascione@istitutoberetta.edu.it</email>
+    </studente>
+    <studente>
+        <nome>Lorenzo</nome>
+        <cognome>Ascione</cognome>
+        <telefono>3401234567</telefono>
+        <email>lorenzo.ascione@istitutoberetta.edu.it</email>
+    </studente>
+    <studente>
+        <nome>Lorenzo</nome>
+        <cognome>Coglione</cognome>
+        <telefono>3401234567</telefono>
+        <email>lorenzo.ascione@istitutoberetta.edu.it</email>
+    </studente>
+</classe>

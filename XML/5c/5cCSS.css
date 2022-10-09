@@ -1,0 +1,30 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+classe  {
+    display: table;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+studente    {
+    display: table-row;
+}
+
+studente:nth-child(even) {
+  background-color: blue;
+}
+
+nome, 
+cognome, 
+telefono, 
+email  {
+    display: table-cell;
+    padding: 20px;
+    border: 1px solid black;
+}
