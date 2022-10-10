@@ -6,8 +6,8 @@
 <!ELEMENT codice (#PCDATA)>
 
 <!ATTLIST articolo
-    cod ID #RQUIRED
-    titolo CDATA #RQUIRED
+    cod ID #REQUIRED
+    titolo CDATA #REQUIRED
     data CDATA #IMPLIED>
 
 <!ATTLIST paragrafo

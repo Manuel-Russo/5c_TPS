@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "film.dtd">
+<catalogo>
+    <film cod="primo" originalità="si" formato="DVD" voto="">
+        <titolo></titolo>
+        <regista></regista>
+        <attore></attore>
+        <attore></attore>
+    </film>
+    <film cod="secondo" originalità="si" formato="BD" voto="">
+        <titolo></titolo>
+        <regista></regista>
+        <attore></attore>
+        <genere></genere>
+    </film>
+</catalogo>
