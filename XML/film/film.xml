@@ -2,15 +2,16 @@
 <!DOCTYPE catalogo SYSTEM "film.dtd">
 <catalogo>
     <film cod="primo" originalità="si" formato="DVD" voto="">
-        <titolo></titolo>
-        <regista></regista>
-        <attore></attore>
-        <attore></attore>
+        <titolo>The wolf of wall street</titolo>
+        <regista>Martin Scorsese</regista>
+        <attore>Leonardo DiCaprio</attore>
+        <attore>Jordan Belfort</attore>
     </film>
     <film cod="secondo" originalità="si" formato="BD" voto="">
-        <titolo></titolo>
-        <regista></regista>
-        <attore></attore>
-        <genere></genere>
+        <titolo>Fury</titolo>
+        <regista>David Ayer</regista>
+        <attore>Brad Pitt</attore>
+        <attore>Scott Eastwood</attore>
+        <genere>Azione</genere>
     </film>
 </catalogo>
