@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE magazzino SYSTEM "magazzino.dtd">
 <magazzino>
-    <articolo cod="" titolo="" data="">
-        <paragrafo titolo="" tipo="">
+    <articolo cod="c1" titolo="" data="">
+        <paragrafo titolo="" tipo="abstract">
             <testo></testo>
             <immagine></immagine>
             <immagine></immagine>
             <immagine></immagine>
+            <codice></codice>
         </paragrafo>
     </articolo>
-    <articolo cod="" titolo="">
-        <paragrafo tipo="">
+    <articolo cod="c2" titolo="">
+        <paragrafo titolo="" tipo="note">
             <testo></testo>
+            <immagine></immagine>
         </paragrafo>
     </articolo>
 </magazzino>

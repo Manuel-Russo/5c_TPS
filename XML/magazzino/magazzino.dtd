@@ -1,3 +1,15 @@
 <!ELEMENT magazzino (articolo*)>
 <!ELEMENT articolo (paragrafo+)>
 <!ELEMENT paragrafo (testo+, immagine*, codice?)>
+<!ELEMENT testo (#PCDATA)>
+<!ELEMENT immagine (#PCDATA)>
+<!ELEMENT codice (#PCDATA)>
+
+<!ATTLIST articolo
+    cod ID #RQUIRED
+    titolo CDATA #RQUIRED
+    data CDATA #IMPLIED>
+
+<!ATTLIST paragrafo
+    titolo CDATA #IMPLIED
+    tipo (abstract|bibbliografia|note) #REQUIRED>
