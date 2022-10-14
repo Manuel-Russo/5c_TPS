@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE catalogo SYSTEM "film.dtd">
 <catalogo>
-    <film cod="primo" originalità="si" formato="DVD" voto="">
+    <film cod="primo" originalità="si" formato="DVD" voto="8">
         <titolo>The wolf of wall street</titolo>
         <regista>Martin Scorsese</regista>
         <attore>Leonardo DiCaprio</attore>

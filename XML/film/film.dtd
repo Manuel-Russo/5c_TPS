@@ -4,7 +4,8 @@
 <!ELEMENT regista (#PCDATA)>
 <!ELEMENT attore (#PCDATA)>
 <!ELEMENT genere (#PCDATA)>
-
+<!-- PCDATA carattere non parsato -->
+<!-- descrivo il tag a cui appartengono gli attributi -->
 <!ATTLIST film
     cod ID #REQUIRED
     originalità (si|no) "si"
