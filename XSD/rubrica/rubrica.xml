@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rubrica 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="rubrica.xsd">
+        <contatto> <!-- complex type perchè all'interno altri tag-->
+            <nome></nome> <!-- simple type non ci sono altri tag interni -->
+            <cognome></cognome>
+            <indirizzo></indirizzo>
+            <telefono></telefono>
+            <telefono></telefono>
+            <telefono></telefono>
+            <telefono></telefono>
+            <email></email>
+            <email></email>
+            <email></email>
+            <website></website>
+        </contatto>
+        <contatto>
+            <nome></nome>
+            <cognome></cognome>
+            <indirizzo></indirizzo>
+            <telefono></telefono>
+            <telefono></telefono>
+            <telefono></telefono>
+            <telefono></telefono>
+            <email></email>
+            <email></email>
+            <email></email>
+            <website></website>
+        </contatto>
+        <contatto>
+            <nome></nome>
+            <cognome></cognome>
+            <indirizzo></indirizzo>
+            <telefono></telefono>
+            <telefono></telefono>
+            <telefono></telefono>
+            <telefono></telefono>
+            <email></email>
+            <email></email>
+            <email></email>
+            <website></website>
+        </contatto>
+</rubrica>

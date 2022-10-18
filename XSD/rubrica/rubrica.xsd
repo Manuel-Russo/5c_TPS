@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="rubrica">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="contatto" type="info_contatto" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="info_contatto">
+        <xs:sequence>
+            <xs:element name="nome" type="xs:string" />
+            <xs:element name="cognome" type="xs:string" />
+            <xs:element name="indirizzo" type="xs:string" />
+            <xs:element name="telefono" type="xs:integer" minOccurs="1" maxOccurs="unbounded" />
+            <xs:element name="email" type="xs:string" />
+            <xs:element name="website" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
