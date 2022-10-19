@@ -6,12 +6,21 @@
             <nome></nome> <!-- simple type non ci sono altri tag interni -->
             <cognome></cognome>
             <indirizzo></indirizzo>
-            <telefono></telefono>
-            <telefono></telefono>
-            <telefono></telefono>
-            <telefono></telefono>
-            <email></email>
-            <email></email>
+            <telefono>14</telefono>
+            <telefono>255</telefono>
+            <telefono>36</telefono>
+            <telefono>366</telefono>
+            <email>sdf</email>
+            <website></website>
+        </contatto>
+        <contatto>
+            <nome></nome>
+            <cognome></cognome>
+            <indirizzo></indirizzo>
+            <telefono>44</telefono>
+            <telefono>65</telefono>
+            <telefono>84</telefono>
+            <telefono>32</telefono>
             <email></email>
             <website></website>
         </contatto>
@@ -19,25 +28,10 @@
             <nome></nome>
             <cognome></cognome>
             <indirizzo></indirizzo>
-            <telefono></telefono>
-            <telefono></telefono>
-            <telefono></telefono>
-            <telefono></telefono>
-            <email></email>
-            <email></email>
-            <email></email>
-            <website></website>
-        </contatto>
-        <contatto>
-            <nome></nome>
-            <cognome></cognome>
-            <indirizzo></indirizzo>
-            <telefono></telefono>
-            <telefono></telefono>
-            <telefono></telefono>
-            <telefono></telefono>
-            <email></email>
-            <email></email>
+            <telefono>3487810688</telefono>
+            <telefono>0145698745</telefono>
+            <telefono>465</telefono>
+            <telefono>1032</telefono>
             <email></email>
             <website></website>
         </contatto>

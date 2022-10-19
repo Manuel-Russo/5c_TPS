@@ -13,7 +13,13 @@
             <xs:element name="nome" type="xs:string" />
             <xs:element name="cognome" type="xs:string" />
             <xs:element name="indirizzo" type="xs:string" />
-            <xs:element name="telefono" type="xs:integer" minOccurs="1" maxOccurs="unbounded" />
+            <xs:element name="telefono" minOccurs="1" maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:maxInclusive value="9999999999"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="email" type="xs:string" />
             <xs:element name="website" type="xs:string" />
         </xs:sequence>
