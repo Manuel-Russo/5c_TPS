@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
+
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!--  definizione schema rubrica -->
     <xs:element name="rubrica">
         <xs:complexType>
             <xs:sequence>
@@ -7,21 +9,30 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
+    <!--  definizione tag contatto -->
     <xs:complexType name="info_contatto">
         <xs:sequence>
             <xs:element name="nome" type="xs:string" />
             <xs:element name="cognome" type="xs:string" />
             <xs:element name="indirizzo" type="xs:string" />
-            <xs:element name="telefono" minOccurs="1" maxOccurs="unbounded">
+            <xs:element name="telefono" minOccurs="1" maxOccurs="4">
                 <xs:simpleType>
                     <xs:restriction base="xs:integer">
-                        <xs:maxInclusive value="9999999999"/>
+                        <xs:totalDigits value="10"/>
                     </xs:restriction>
                 </xs:simpleType>
-            </xs:element>
-            <xs:element name="email" type="xs:string" />
-            <xs:element name="website" type="xs:string" />
-        </xs:sequence>
+            </xs:element>   
+            <xs:element name="email" type="xs:string" minOccurs="1" maxOccurs="3"/>
+            <!-- <xs:element name="website" type="xs:string" /> -->
+            <xs:element name="website">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="url" type="xs:string" use="optional"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>   
+           </xs:sequence>
     </xs:complexType>
 </xs:schema>

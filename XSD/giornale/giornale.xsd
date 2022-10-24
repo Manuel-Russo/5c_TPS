@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="giornale">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="articolo" type="info_articolo" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="info_articolo">
+        <xs:sequence>
+            <xs:element name="titolo">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="40"/>
+                        <xs:maxLength value="150"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="sottotitolo" type="xs:string"/>
+            <xs:element name="intestazione" type="xs:string"/>
+            <xs:element name="autore" type="xs:string"/>
+            <xs:element name="data" type="xs:date"/>
+            <xs:element name="corpo">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="paragrafo" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

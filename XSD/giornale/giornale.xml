@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<giornale
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="giornale.xsd">
+    <articolo>
+        <titolo>qwertyuiopqwertyuiopqwertyuiopqwertyuiop</titolo>
+        <sottotitolo></sottotitolo>
+        <intestazione></intestazione>
+        <autore></autore>
+        <data>2022-10-11</data>
+        <corpo>
+            <paragrafo></paragrafo>
+            <paragrafo></paragrafo>
+            <paragrafo></paragrafo>
+        </corpo>
+    </articolo>
+
+    <articolo>
+        <titolo>qwertyuiopqwertyuiopqwertyuiopqwertyuiop</titolo>
+        <sottotitolo></sottotitolo>
+        <intestazione></intestazione>
+        <autore></autore>
+        <data>2022-10-12</data>
+        <corpo>
+            <paragrafo></paragrafo>
+            <paragrafo></paragrafo>
+        </corpo>
+    </articolo>
+</giornale>
