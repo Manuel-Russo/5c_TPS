@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="agenzia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="casa" type="info_casa" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="info_casa">
+        <xs:sequence>
+            <xs:element name="tipologia">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="appartamento"/>
+                        <xs:enumeration value="villetta"/>
+                        <xs:enumeration value="villa"/>
+                        <xs:enumeration value="rustico"/>
+                        <xs:enumeration value="colonica"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            
+            <xs:element name="indirizzo" type="indirizzo_casa" minOccurs="1" maxOccurs="1"/>
+            
+            <xs:element name="piano">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer"/>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="ascensore">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="si"/>
+                        <xs:enumeration value="no"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            
+            <xs:element name="descrizione_testuale">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string"/>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="categoria_energetica">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="A"/>
+                        <xs:enumeration value="B"/>
+                        <xs:enumeration value="C"/>
+                        <xs:enumeration value="D"/>
+                        <xs:enumeration value="E"/>
+                        <xs:enumeration value="F"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="numero_vani">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minExclusive value="0" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="superficie">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:decimal">
+                            <xs:attribute name="unità" type="xs:string" use="required"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="costo">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:decimal">
+                            <xs:attribute name="valuta" type="xs:string" use="required"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="indirizzo_casa">
+        <xs:sequence>
+            <xs:element name="città">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string"></xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="via">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string"></xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="numero_civico">
+                <xs:simpleType >
+                    <xs:restriction base="xs:integer">
+                        <xs:minExclusive value="0"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenzia
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="agenzia.xsd">
+    <casa>
+        <tipologia>villa</tipologia>
+        <indirizzo>
+            <città>Lumezzane</città>
+            <via>Via virgiglio</via>
+            <numero_civico>45</numero_civico>
+        </indirizzo>
+        <piano>1</piano>
+        <ascensore>si</ascensore>
+        <descrizione_testuale>ottima baita a Lume dove abitare con una grande famiglia</descrizione_testuale>
+        <categoria_energetica>A</categoria_energetica>
+        <numero_vani>15</numero_vani>
+        <superficie unità="mq">250</superficie>
+        <costo valuta="€">400000</costo>
+    </casa>
+</agenzia>
