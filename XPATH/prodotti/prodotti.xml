@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Scrivere le espressioni XPath che selezionano i seguenti elementi:
+a) descrizione dei prodotti che hanno il prezzo inferiore a 4€;
+b) prezzi di tutti i prodotti;
+c) descrizione del secondo prodotto dell'elenco;
+d) codice del penultimo prodotto dell'elenco;
+e) codice della birra;
+f) prezzo degli spaghetti scontato del 10%;
+g) descrizione del prodotto con codice 0123456789;
+h) codici dei prodotti con prezzo superiore o uguale a 4€;
+i) codici dei prodotti con prezzo superiore a 5€ o inferiore a 3€;
+j) punti del prodotto con codice 9876543210;
+k) codici dei prodotti con punti superiori a 5;
+l) descrizione dei prodotti con punti uguali a 0. -->
+
+<prodotti>
+	<prodotto punti="10">
+		<codice>1234567890</codice>
+		<descrizione>biscotti al burro</descrizione>
+		<prezzo>5.50</prezzo>
+	</prodotto>
+	<prodotto punti="0">
+		<codice>0123456789</codice>
+		<descrizione>birra 3/4 litro</descrizione>
+		<prezzo>4.00</prezzo>
+	</prodotto>
+	<prodotto punti="20">
+		<codice>9876543210</codice>
+		<descrizione>spaghetti 1/2 kg</descrizione>
+		<prezzo>2.50</prezzo>
+	</prodotto>
+	<prodotto punti="5">
+		<codice>0987654321</codice>
+		<descrizione>salame confezionato</descrizione>
+		<prezzo>3.50</prezzo>
+	</prodotto>
+</prodotti>

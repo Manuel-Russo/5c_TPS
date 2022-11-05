@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<!--
+1) selezionare l'elemento "pittori"
+2) selezionare tutti gli artisti "pittori"
+3) conoscere il numero totale degli artisti
+4) selezionare il secondo pittore
+5) selezionare l'ultimo artista di ogni categoria
+6) visualizzare il nome dell'ultima opera del secondo artista tra i pittori
+7) selezionare tutte le opere del '400
+8) visualizzare il titolo di tutte le opere successive al 1880
+9) sommare gli anni di creazione di tutte le opere
+-->
+
+<maestri>
+	<!-- Questo è un commento! -->
+	<pittori>
+		<artista nome="Leonardo da Vinci">
+			<opera anno="1483" genere="olio su tela">Vergine delle Rocce</opera>
+			<opera anno="1488" genere="olio su tavola">Dama con ermellino</opera>
+			<opera anno="1494" genere="olio su parete">Ultima cena</opera>
+		</artista>
+		<artista nome="Michelangelo">
+			<opera anno="1497" genere="gruppo sculture">Pietà vaticana</opera>
+			<opera anno="1506" genere="tempera">Tondo Doni</opera>
+			<opera anno="1513" genere="statua">Mosé</opera>
+			<opera anno="1537" genere="affresco">Giudizio universale</opera>
+		</artista>
+	</pittori>
+	<musicisti>
+		<artista nome="Giuseppe Verdi">
+			<opera anno="1871" atti="4">Aida</opera>
+			<opera anno="1851" atti="3">Rigoletto</opera>
+			<opera anno="1857" atti="3" prologo="sì">Simon Boccanegra</opera>
+		</artista>
+		<artista nome="Giacomo Puccini">
+			<opera anno="1896" atti="4">La boheme</opera>
+			<opera anno="1887" atti="3">Tosca</opera>
+			<opera anno="1926" atti="3">Turandot</opera>
+		</artista>
+	</musicisti>
+</maestri>
