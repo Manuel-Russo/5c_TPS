@@ -1,0 +1,12 @@
+a) /prodotti//prodotto[prezzo<4.00]/descrizione/text()
+b) /prodotti//prezzo/text()
+c) /prodotti/prodotto[position() = 2]/descrizione/text()
+d) /prodotti/prodotto[last()-1]/codice/text()
+e) /prodotti/prodotto[contains(descrizione, 'birra')]/codice/text()
+f) /prodotti/prodotto[last()-1]/prezzo/text()-0.25
+g) /prodotti/prodotto[codice = 0123456789]/descrizione/text()
+h) /prodotti//prodotto[prezzo>=4.00]/codice/text()
+i) /prodotti//prodotto[prezzo < 3.00]/codice/text() | /prodotti//prodotto[prezzo>5.00]/codice/text()
+j) /prodotti/prodotto[codice = 0123456789]/@punti
+k) /prodotti/prodotto[@punti > 5]/codice/text()
+l) /prodotti/prodotto[@punti = 0]/descrizione/text()
