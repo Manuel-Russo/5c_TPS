@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<negozio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="negozio.xsd">
+    <prodotto>
+        <categoria>video</categoria>
+        <codice>125469</codice>
+        <marca>Philips</marca>
+        <modello>AO587</modello>
+        <descrizione>Tv a schermo piatto ad alta risoluzione</descrizione>
+        <prezzo unità="€">290</prezzo>
+        <quantità>13</quantità>
+    </prodotto>
+    <prodotto>
+        <categoria>audio</categoria>
+        <codice>2185687</codice>
+        <marca>Sony</marca>
+        <modello>MX87</modello>
+        <descrizione>Casse sorround 8.1</descrizione>
+        <prezzo unità="€">500</prezzo>
+        <quantità>3</quantità>
+    </prodotto>
+    <prodotto>
+        <categoria>telefonia</categoria>
+        <codice>54214</codice>
+        <marca>Samsung</marca>
+        <modello>Flip 4</modello>
+        <descrizione>Telefono ribaltabile a conchiglia con doppio schermo</descrizione>
+        <prezzo unità="€">1800</prezzo>
+        <quantità>5</quantità>
+    </prodotto>
+</negozio>

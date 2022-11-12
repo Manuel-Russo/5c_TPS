@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<!-- 
+  (a) i titoli dei libri di Andrea Camilleri;
+  (b) i libri scritti in inglese;
+  (c) i titoli dei libri pubblicati prima del 1984;
+  (d) i commenti con voto pari a 2 dei libri di Andrea Camilleri;
+  (e) numero di commenti con voto minore di 6 dei libri di Andrea Camilleri;
+  (f) i libri di Andrea Camilleri pubblicati prima del 2000.
+-->
+
+<biblioteca>
+  <libro id="BK100" lingua="it">
+    <titolo>Il ladro di merendine</titolo>
+    <autore>Andrea Camilleri</autore>
+    <anno>1996</anno>
+    <commenti>
+      <commento voto="5">Insoddifacente</commento>
+      <commento voto="7">Discreto</commento>
+    </commenti>
+  </libro>
+  <libro id="BK101" lingua="it">
+    <titolo>Gli arancini di Montalbano</titolo>
+    <autore>Andrea Camilleri</autore>
+    <anno>1999</anno>
+    <commenti>
+      <commento voto="9">Stupendo</commento>
+      <commento voto="2">Orribile</commento>
+    </commenti>
+  </libro>
+  <libro id="BK102" lingua="it">
+    <titolo>La prima indagine di Montalbano</titolo>
+    <autore>Andrea Camilleri</autore>
+    <anno>2004</anno>
+    <commenti>
+      <commento voto="2">Abbastanza brutto</commento>
+      <commento voto="10">Perfetto</commento>
+    </commenti>
+  </libro>
+  <libro id="BK103" lingua="es">
+    <titolo>Don Chisciotte</titolo>
+    <autore>Miguel de Cervantes</autore>
+    <anno>1645</anno>
+    <commenti>
+      <commento voto="9">Raffinato</commento>
+      <commento voto="10">Divino</commento>
+    </commenti>
+  </libro>
+  <libro id="BK104" lingua="it">
+    <titolo>I Malavoglia</titolo>
+    <autore>Giovanni Verga</autore>
+    <anno>1873</anno>
+    <commenti>
+      <commento voto="8">Bello</commento>
+    </commenti>
+  </libro>
+  <libro id="BK105" lingua="it">
+    <titolo>I Promessi Sposi</titolo>
+    <autore>Alessandro Manzoni</autore>
+    <anno>1843</anno>
+    <commenti>
+      <commento voto="10">Provvidenziale</commento>
+    </commenti>
+  </libro>
+  <libro id="BK106" lingua="en">
+    <titolo>Il vecchio e il mare</titolo>
+    <autore>Ernest Hemingway</autore>
+    <anno>1952</anno>
+    <commenti>
+      <commento voto="9">Stravolgente</commento>
+      <commento voto="4">Noioso</commento>
+    </commenti>
+  </libro>
+  <libro id="BK107" lingua="en">
+    <titolo>1984</titolo>
+    <autore>George Orwell</autore>
+    <anno>1949</anno>
+    <commenti></commenti>
+  </libro>
+</biblioteca>

@@ -1,0 +1,6 @@
+a) /biblioteca/libro[autore="Andrea Camilleri"]/titolo/text()
+b) /biblioteca/libro[@lingua="en"]/*
+c) /biblioteca/libro[anno<1984]/titolo/text()
+d) /biblioteca/libro[autore="Andrea Camilleri"]/commenti/commento[@voto=2]/text()
+e) count(/biblioteca/libro[autore="Andrea Camilleri"]/commenti/commento[@voto<6])
+f) /biblioteca/libro[anno<2000][autore="Andrea Camilleri"]//*
