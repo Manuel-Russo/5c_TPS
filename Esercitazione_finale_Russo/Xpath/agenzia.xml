@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<agenzia>
+  <viaggio codice="AD43" tipo="avventuroso">
+    <tappa>
+        <luogo>Australia</luogo>
+        <giorni>2</giorni>
+    </tappa>
+    <tappa>
+        <luogo>Thailandia</luogo>
+        <giorni>4</giorni>
+    </tappa>
+    <tappa>
+        <luogo>Indonesia</luogo>
+        <giorni>2</giorni>
+    </tappa>
+    <tappa>
+        <luogo>Filippine</luogo>
+        <giorni>2</giorni>
+    </tappa>
+    <durata>10</durata>
+    <prezzo>1200</prezzo>
+    <descrizione>Viaggio tra Asia e Oceania</descrizione>
+  </viaggio>
+  <viaggio codice="FH96" tipo="normale">
+    <tappa>
+        <luogo>Milano</luogo>
+        <giorni>3</giorni>
+    </tappa>
+    <tappa>
+        <luogo>Pavia</luogo>
+        <giorni>2</giorni>
+    </tappa>
+    <durata>5</durata>
+    <prezzo>300</prezzo>
+    <descrizione>Viaggio nei luoghi del ducato di Milano</descrizione>
+  </viaggio>
+  <viaggio codice="GJ98" tipo="normale">
+    <tappa>
+        <luogo>Gardone Riviera</luogo>
+        <giorni>1</giorni>
+    </tappa>
+    <durata>1</durata>
+    <prezzo>120</prezzo>
+    <descrizione>Viaggio alla scoperta del poeta vate</descrizione>
+  </viaggio>
+</agenzia>

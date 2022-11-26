@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<piattaforma>
+    <video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="netflix.xsd">
+        <titolo>Fury</titolo>
+        <trama>Storia di soldati americani durante la seconda guerra mondiale in Francia</trama>
+        <tipologia>Film</tipologia>
+        <durata unità="minuti">134</durata>
+        <linguaAudio>Inglese</linguaAudio>
+        <risoluzione>1080</risoluzione>
+        <numeroLike>150000</numeroLike>
+        <numeroDislike>2000</numeroDislike>
+        <numeroVisualizzazioni>1000000</numeroVisualizzazioni>
+        <annoCaricamento>2014</annoCaricamento>
+        <numeroCommenti>150</numeroCommenti>
+        <numeroCondivisioni>20000</numeroCondivisioni>
+    </video>
+</piattaforma>

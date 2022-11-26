@@ -1,0 +1,11 @@
+(a) i viaggi di tipo avventuroso;
+(b) il luogo della prima tappa di tutti i viaggi;
+(c) i viaggi la cui durata `e superiore alla settimana;
+(d) i giorni di permanenza in Indonesia;
+(e) i luoghi in cui si risiede per pi`u di un giorno consecutivo.
+
+a) //viaggio[@tipo="avventuroso"]
+b) //viaggio/tappa[position()=1]/luogo/text()
+c) //viaggio[durata>7]
+d) //viaggio/tappa[luogo="Indonesia"]/giorni/text()
+e) //tappa[giorni>1]/luogo/text()
