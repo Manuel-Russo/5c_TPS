@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libri>
+    <libro genere="fantascienza">
+        <autore>Stefano Benni</autore>
+        <titolo>Terra!</titolo>
+        <prezzo>10.50</prezzo>
+    </libro>
+    <libro genere="romanzo">
+        <autore>Mark Twain</autore>
+        <titolo>Le avventure di Hyckleberry Finn</titolo>
+        <prezzo>9.90</prezzo>
+    </libro>
+    <libro genere="romanzo">
+        <autore>Herman Melville</autore>
+        <titolo>Mody Dick</titolo>
+        <prezzo>15.00</prezzo>
+    </libro>
+</libri>
