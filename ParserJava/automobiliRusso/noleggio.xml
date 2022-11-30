@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<noleggio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="noleggio.xsd">
+    <auto>
+        <classe>B</classe>
+        <marca>Corvette</marca>
+        <modello>C8 Stingray Coupé</modello>
+        <cilindrata unità="cm3">1500</cilindrata>
+        <potenza unità="Kw">350</potenza>
+        <alimentazione>Benzina</alimentazione>
+        <numero_passeggieri>2</numero_passeggieri>
+        <volume_bagagliaio unità="litri">100</volume_bagagliaio>
+    </auto>
+</noleggio>

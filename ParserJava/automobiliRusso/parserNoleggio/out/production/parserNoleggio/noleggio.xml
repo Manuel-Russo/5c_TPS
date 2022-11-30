@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<noleggio>
+    <auto>
+        <classe>B</classe>
+        <marca>Corvette</marca>
+        <modello>C8 Stingray Coupe</modello>
+        <cilindrata unita_cilindrata="cm3">1500</cilindrata>
+        <potenza unita_potenza="Kw">350</potenza>
+        <alimentazione>Diesel</alimentazione>
+        <numero_passeggieri>2</numero_passeggieri>
+        <volume_bagagliaio unita_baga="litri">100</volume_bagagliaio>
+    </auto>
+    <auto>
+        <classe>A</classe>
+        <marca>Ford</marca>
+        <modello>Mustang</modello>
+        <cilindrata unita_cilindrata="cm3">1500</cilindrata>
+        <potenza unita_potenza="Kw">350</potenza>
+        <alimentazione>Benzina</alimentazione>
+        <numero_passeggieri>2</numero_passeggieri>
+        <volume_bagagliaio unita_baga="litri">100</volume_bagagliaio>
+    </auto>
+    <auto>
+        <classe>A</classe>
+        <marca>Toyota</marca>
+        <modello>Yaris</modello>
+        <cilindrata unita_cilindrata="cm3">1500</cilindrata>
+        <potenza unita_potenza="Kw">350</potenza>
+        <alimentazione>Ibrida</alimentazione>
+        <numero_passeggieri>2</numero_passeggieri>
+        <volume_bagagliaio unita_baga="litri">100</volume_bagagliaio>
+    </auto>
+    <auto>
+        <classe>D</classe>
+        <marca>Citroen</marca>
+        <modello>C3</modello>
+        <cilindrata unita_cilindrata="cm3">1500</cilindrata>
+        <potenza unita_potenza="Kw">350</potenza>
+        <alimentazione>Ibrida</alimentazione>
+        <numero_passeggieri>2</numero_passeggieri>
+        <volume_bagagliaio unita_baga="litri">100</volume_bagagliaio>
+    </auto>
+</noleggio>
