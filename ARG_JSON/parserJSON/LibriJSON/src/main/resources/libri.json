@@ -1,0 +1,24 @@
+{
+    "libri": {
+        "libro": [
+            {
+                "genere": "fantascienza",
+                "autore" : "Stefano Benni",
+                "titolo": "Terra!",
+                "prezzo": 10.50
+            },
+            {
+                "genere": "romanzo",
+                "autore" : "Mark Twain",
+                "titolo": "Le avventure di Hyckleberry Finn",
+                "prezzo": 9.90
+            },
+            {
+                "genere": "romanzo",
+                "autore" : "Herman Melville",
+                "titolo": "Mody Dick",
+                "prezzo": 15.00
+            }
+        ]
+    }
+}

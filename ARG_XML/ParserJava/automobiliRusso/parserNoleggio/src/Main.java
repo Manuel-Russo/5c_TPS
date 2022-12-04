@@ -47,7 +47,7 @@ public class Main {
         try {
             System.out.println("Inserisci la classe di auto con alimentazione ibrida che vuoi visualizzare (A,B,C,D,E): ");
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            String s = br.readLine();
+            String s = br.readLine().toUpperCase();
             for (Auto automobile : auto) {
                 if (Objects.equals(automobile.getClasse(), s) && Objects.equals(automobile.getAlimentazione(), "Ibrida"))  {
                     System.out.println(automobile);
