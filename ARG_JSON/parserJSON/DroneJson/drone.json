@@ -1,0 +1,18 @@
+{
+    "percorso":     {
+        "posizione": [
+            {
+                "latitudine": 43.55,
+                "longitudine": 10.3167,
+                "altitudine": 100.9,
+                "data_ora": "2022-11-29T17:29:59"
+            },
+            {
+                "latitudine": 43.65,
+                "longitudine": 10.3333,
+                "altitudine": 99.1,
+                "data_ora": "2022-11-29T17:39:59"
+            }
+        ]
+    }
+}

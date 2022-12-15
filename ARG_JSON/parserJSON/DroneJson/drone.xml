@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<percorso>
+    <posizione>
+      <latitudine>43.55</latitudine>
+      <longitudine>10.3167</longitudine>
+      <altitudine>100.9</altitudine>
+      <data_ora>2022-11-29T17:29:59</data_ora>
+    </posizione>
+    <posizione>
+      <latitudine>43.65</latitudine>
+      <longitudine>10.3333</longitudine>
+      <altitudine>99.1</altitudine>
+      <data_ora>2022-11-29T17:39:59</data_ora>
+    </posizione>
+  </percorso>
